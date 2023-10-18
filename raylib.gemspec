@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.authors = ["Wilson Silva"]
   spec.email = ["wilson.dsigns@gmail.com"]
 
-  spec.summary = "Ruby language bindings for the raylib C game engine."
+  spec.summary = "Ruby bindings for raylib, a simple and easy-to-use library to enjoy videogames programming."
   spec.description = "raylib is a simple and easy-to-use C library for enjoying videogames programming. This gem provides Ruby language bindings for raylib, making it easier to develop games in Ruby using raylib."
   spec.homepage = "https://github.com/wilsonsilva/raylib"
   spec.license = "MIT"
