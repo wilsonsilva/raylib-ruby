@@ -5,8 +5,5 @@ source "https://rubygems.org"
 # Specify your gem's dependencies in raylib.gemspec
 gemspec
 
-gem "rake", "~> 13.0"
-
-gem "rspec", "~> 3.0"
-
-gem "rubocop", "~> 1.21"
+# If you're developing the generator, uncomment this line and point it to your local copy of the generator
+# gem "raylib-generator", path: "/Users/wilson/projects/rb/raylib-generator"

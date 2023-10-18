@@ -1,5 +1,5 @@
 # frozen_string_literal: true
 
 module Raylib
-  VERSION = "0.1.0"
+  VERSION = '4.5.0.alpha1'
 end

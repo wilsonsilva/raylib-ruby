@@ -1,0 +1,5 @@
+require 'raylib/core/enums'
+require 'raylib/core/structs'
+require 'raylib/core/colors'
+require 'raylib/core/callbacks'
+require 'raylib/core/functions'

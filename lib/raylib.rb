@@ -1,8 +1,12 @@
 # frozen_string_literal: true
 
-require_relative "raylib/version"
+require 'raylib/version'
+require 'ffi'
 
 module Raylib
-  class Error < StandardError; end
-  # Your code goes here...
+  extend FFI::Library
+
+  ffi_lib 'raylib'
 end
+
+require 'raylib/core'
