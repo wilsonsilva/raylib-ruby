@@ -16,7 +16,7 @@
 #      Place your code between the dotted lines for every section, please don't mix update logic with drawing
 #      and remember to unload all loaded resources.
 #
-#   4. Code should follow raylib conventions: https://github.com/wilsonsilva/raylib/wiki/raylib-coding-conventions
+#   4. Code should follow raylib conventions: https://github.com/wilsonsilva/raylib-ruby/wiki/raylib-coding-conventions
 #      Try to be very organized, using line-breaks appropriately.
 #
 #   5. Add comments to the specific parts of code the example is focus on.

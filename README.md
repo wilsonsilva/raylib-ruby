@@ -17,10 +17,10 @@ Ruby bindings for [raylib](https://www.raylib.com/), a simple and easy-to-use li
 - Flexible Materials system, supporting classic maps and **PBR maps**
 - **Animated 3D models** supported (skeletal bones animation) (IQM)
 - Shaders support, including model and **postprocessing** shaders.
-- **Powerful math module** for Vector, Matrix and Quaternion operations: [raymath](https://github.com/wilsonsilva/raylib/blob/main/lib/raylib/raymath/)
+- **Powerful math module** for Vector, Matrix and Quaternion operations: [raymath](https://github.com/wilsonsilva/raylib-ruby/blob/main/lib/raylib/raymath/)
 - Audio loading and playing with streaming support (WAV, OGG, MP3, FLAC, XM, MOD)
 - **VR stereo rendering** support with configurable HMD device parameters
-- Huge examples collection with [+20 code examples](https://github.com/wilsonsilva/raylib/tree/main/examples)!
+- Huge examples collection with [+20 code examples](https://github.com/wilsonsilva/raylib-ruby/tree/main/examples)!
 - **Free and open source**.
 
 ## Installation
@@ -83,9 +83,9 @@ version, push git commits and the created tag, and push the `.gem` file to [ruby
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/wilsonsilva/raylib. This project is intended
+Bug reports and pull requests are welcome on GitHub at https://github.com/wilsonsilva/raylib-ruby. This project is intended
 to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the
-[code of conduct](https://github.com/wilsonsilva/raylib/blob/main/CODE_OF_CONDUCT.md).
+[code of conduct](https://github.com/wilsonsilva/raylib-ruby/blob/main/CODE_OF_CONDUCT.md).
 
 ## License
 
@@ -94,4 +94,4 @@ The gem is available as open source under the terms of the [MIT License](https:/
 ## Code of Conduct
 
 Everyone interacting in the Raylib project's codebases, issue trackers, chat rooms and mailing lists is expected to
-follow the [code of conduct](https://github.com/wilsonsilva/raylib/blob/main/CODE_OF_CONDUCT.md).
+follow the [code of conduct](https://github.com/wilsonsilva/raylib-ruby/blob/main/CODE_OF_CONDUCT.md).

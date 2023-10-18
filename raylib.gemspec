@@ -10,15 +10,15 @@ Gem::Specification.new do |spec|
 
   spec.summary = "Ruby bindings for raylib, a simple and easy-to-use library to enjoy videogames programming."
   spec.description = "raylib is a simple and easy-to-use C library for enjoying videogames programming. This gem provides Ruby language bindings for raylib, making it easier to develop games in Ruby using raylib."
-  spec.homepage = "https://github.com/wilsonsilva/raylib"
+  spec.homepage = "https://github.com/wilsonsilva/raylib-ruby"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 3.2.0"
 
   spec.metadata["allowed_push_host"] = "https://rubygems.org"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://github.com/wilsonsilva/raylib"
-  spec.metadata["changelog_uri"] = "https://github.com/wilsonsilva/raylib/blob/main/CHANGELOG.md"
+  spec.metadata["source_code_uri"] = "https://github.com/wilsonsilva/raylib-ruby"
+  spec.metadata["changelog_uri"] = "https://github.com/wilsonsilva/raylib-ruby/blob/main/CHANGELOG.md"
 
   spec.files = Dir['LICENSE.txt', 'README.md', 'lib/**/*']
 
