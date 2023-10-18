@@ -1,5 +1,7 @@
 # Raylib for Ruby
 
+![raylib-ruby logo](.github/assets/raylib-ruby.png)
+
 Ruby bindings for [raylib](https://www.raylib.com/), a simple and easy-to-use library to enjoy videogames programming.
 
 ## Features
