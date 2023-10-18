@@ -89,7 +89,7 @@ to be a safe, welcoming space for collaboration, and contributors are expected t
 
 ## License
 
-The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+The gem is available as open source under the terms of the [zlib/libpng License](https://opensource.org/licenses/zlib).
 
 ## Code of Conduct
 
