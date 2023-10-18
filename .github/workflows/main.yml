@@ -9,7 +9,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     name: Ruby ${{ matrix.ruby }}
     strategy:
       matrix:
@@ -18,6 +18,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
+    - name: Setup raylib
+      run: brew install raylib
     - name: Set up Ruby
       uses: ruby/setup-ruby@v1
       with:

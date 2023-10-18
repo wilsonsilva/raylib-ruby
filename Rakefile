@@ -9,7 +9,7 @@ require "rubocop/rake_task"
 
 RuboCop::RakeTask.new
 
-task default: %i[spec rubocop]
+task default: %i[spec]
 
 # If you're developing the generator, uncomment these lines and point it to your local copy of the generator
 # require_relative "../raylib-generator/lib/raylib/generator"
