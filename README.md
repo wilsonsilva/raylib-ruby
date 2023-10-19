@@ -45,8 +45,8 @@ Raylib.init_window(800, 450, 'My window')
 
 until Raylib.window_should_close
   Raylib.begin_drawing
-  Raylib.clear_background(Raylib::RAYWHITE)
-  Raylib.draw_text('Congrats! You created your first window!', 190, 200, 20, Raylib::LIGHTGRAY)
+  Raylib.clear_background(Raylib::WHITE)
+  Raylib.draw_text('Congrats! You created your first window!', 190, 200, 20, Raylib::BLACK)
   Raylib.end_drawing
 end
 
@@ -64,10 +64,12 @@ init_window(800, 450, 'My window')
 
 until window_should_close
   begin_drawing
-  clear_background(RAYWHITE)
-  draw_text('Congrats! You created your first window!', 190, 200, 20, LIGHTGRAY)
+  clear_background(WHITE)
+  draw_text('Congrats! You created your first window!', 190, 200, 20, BLACK)
   end_drawing
 end
+
+close_window
 ```
 
 In the code above, `require 'raylib/dsl` is a shorthand for `require 'raylib'` + `include Raylib`.
