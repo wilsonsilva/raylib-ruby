@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
 
   spec.summary = "Ruby bindings for raylib, a simple and easy-to-use library to enjoy videogames programming."
   spec.description = "raylib is a simple and easy-to-use C library for enjoying videogames programming. This gem provides Ruby language bindings for raylib, making it easier to develop games in Ruby using raylib."
-  spec.homepage = "https://github.com/wilsonsilva/raylib-ruby"
+  spec.homepage = "https://raylib-ruby.com"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 3.2.0"
 
