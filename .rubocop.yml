@@ -1,5 +1,9 @@
+require:
+  - rubocop-raylib
+
 AllCops:
   TargetRubyVersion: 3.2
+  NewCops: enable
 
 Style/StringLiterals:
   Enabled: true
@@ -11,3 +15,6 @@ Style/StringLiteralsInInterpolation:
 
 Layout/LineLength:
   Max: 120
+
+MemoryManagement/UnpairedResource:
+  Enabled: true

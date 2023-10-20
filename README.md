@@ -22,6 +22,7 @@ Ruby bindings for [raylib](https://www.raylib.com/), a simple and easy-to-use li
 - **VR stereo rendering** support with configurable HMD device parameters
 - Huge examples collection with [+20 code examples](https://github.com/wilsonsilva/raylib-ruby/tree/main/examples)!
 - **Free and open source**.
+- Linter for best practices: [rubocop-raylib](https://github.com/wilsonsilva/rubocop-raylib)
 
 ## Installation
 
