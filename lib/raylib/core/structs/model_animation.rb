@@ -49,8 +49,37 @@ module Raylib
     end
 
     # Poses array by frame
-    # @return [Transform **] framePoses
-    def frame_poses = self[:framePoses]
+    # @return [Array<Transform>] framePoses
+    # def frame_poses
+    #   # frames = []
+    #   # frame_array_ptr = self[:framePoses].read_pointer
+    #   #
+    #   # frame_count.times do |i|
+    #   #   frames << frame_array_ptr[i].read_array_of_type(:transform_pointer, :read_pointer, frame_count)
+    #   # end
+    #   #
+    #   # frames
+    #
+    #   # frame_poses_ptr = FFI::Pointer.new(Transform, self[:framePoses])
+    #   # 0.upto(self[:frameCount]-1) do |i|
+    #   #   transform = Transform.new(frame_poses_ptr[i])
+    #   #   # Now 'transform' holds the i-th transform in the array.
+    #   #   # You can access its fields with transform[:field_name].
+    #   # end
+    #
+    #   pointer = self[:framePoses]
+    #
+    #   Array.new(self[:frameCount]) do |i|
+    #     Transform.new(pointer[i * Transform.size])
+    #   end
+    # end
+
+    def frame_poses(frame_idx)
+      pointer = self[:framePoses].get_pointer(frame_idx * FFI::Pointer.size)
+      Array.new(self[:boneCount]) do |i|
+        Transform.new(pointer[i * Transform.size])
+      end
+    end
 
     # Sets Poses array by frame
     def frame_poses=(new_frame_poses)

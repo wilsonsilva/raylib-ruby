@@ -46,4 +46,8 @@ module Raylib
       self[:scale] = new_scale
     end
   end
+
+  # Registering custom types with FFI
+  # FFI.typedef :pointer, :transform_pointer
+  # FFI::TypeDefs[:transform_pointer].instance_variable_set(:@type_size, Transform.size)
 end
