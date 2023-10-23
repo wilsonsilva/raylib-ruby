@@ -1,5 +1,12 @@
 | resource                       | author      | licence | notes |
 | :----------------------------- | :---------: | :------ | :---- |
+| fonts/alagard.png              | Hewett Tsoi | [Freeware](https://www.dafont.com/es/alagard.font)  |  Atlas created by [@raysan5](https://github.com/raysan5) |
+| fonts/romulus.png              | Hewett Tsoi | [Freeware](https://www.dafont.com/es/romulus.font)  |  Atlas created by [@raysan5](https://github.com/raysan5) |
+| fonts/alpha_beta.png           | [Brian Kent (AEnigma)](https://www.dafont.com/es/aenigma.d188) | [Freeware](https://www.dafont.com/es/alpha-beta.font)  |  Atlas created by [@raysan5](https://github.com/raysan5) |
+| fonts/setback.png              | [Brian Kent (AEnigma)](https://www.dafont.com/es/aenigma.d188) | [Freeware](https://www.dafont.com/es/setback.font)  |  Atlas created by [@raysan5](https://github.com/raysan5) |
+| fonts/jupiter_crash.png        | [Brian Kent (AEnigma)](https://www.dafont.com/es/aenigma.d188) | [Freeware](https://www.dafont.com/es/jupiter-crash.font)  |  Atlas created by [@raysan5](https://github.com/raysan5) |
+| fonts/mecha.png                | Captain Falcon | [Freeware](https://www.dafont.com/es/mecha-cf.font)  |  Atlas created by [@raysan5](https://github.com/raysan5) |
+| fonts/pixelplay.png            | Aleksander Shevchuk | [Freeware](https://www.dafont.com/es/pixelplay.font)  |  Atlas created by [@raysan5](https://github.com/raysan5) |
 | fonts/pixantiqua.ttf           | Gerhard Großmann | [Freeware](https://www.dafont.com/es/pixantiqua.font)  |  Atlas created by [@raysan5](https://github.com/raysan5) |
 | custom_alagard.png             | [Brian Kent (AEnigma)](https://www.dafont.com/es/aenigma.d188) | [Freeware](https://www.dafont.com/es/jupiter-crash.font) | Atlas created by [@raysan5](https://github.com/raysan5) |
 | custom_jupiter_crash.png       | [Brian Kent (AEnigma)](https://www.dafont.com/es/aenigma.d188) | [Freeware](https://www.dafont.com/es/jupiter-crash.font) | Atlas created by [@raysan5](https://github.com/raysan5) |
