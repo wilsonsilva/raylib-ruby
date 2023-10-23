@@ -37,13 +37,8 @@ Raylib.set_config_flags(Raylib::FLAG_MSAA_4X_HINT) # Set MSAA 4X hint before win
 
 Raylib.init_window(SCREEN_WIDTH, SCREEN_HEIGHT, "raylib [core] example - gamepad input")
 
-tex_ps3_pad = Raylib.load_texture("/Users/wilson/projects/rb/raylib/examples/core/resources/ps3.png")
-tex_xbox_pad = Raylib.load_texture("/Users/wilson/projects/rb/raylib/examples/core/resources/xbox.png")
-
-# TODO: Figure out why relative paths don't work
-
-# tex_ps3_pad = Raylib.load_texture("resources/ps3.png")
-# tex_xbox_pad = Raylib.load_texture("resources/xbox.png")
+tex_ps3_pad = Raylib.load_texture(File.join(__dir__, "resources/ps3.png")) # FIXME: Should work without File.join
+tex_xbox_pad = Raylib.load_texture(File.join(__dir__, "resources/xbox.png")) # FIXME: Should work without File.join
 
 Raylib.set_target_fps(60)
 # --------------------------------------------------------------------------------------

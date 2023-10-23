@@ -25,7 +25,7 @@ Raylib.init_window(SCREEN_WIDTH, SCREEN_HEIGHT, "raylib [audio] example - music 
 
 Raylib.init_audio_device # Initialize audio device
 
-music = Raylib.load_music_stream(File.join(__dir__, "resources/country.mp3"))
+music = Raylib.load_music_stream(File.join(__dir__, "resources/country.mp3")) # FIXME: Should work without File.join
 Raylib.play_music_stream(music)
 
 pause = false # Music playing paused

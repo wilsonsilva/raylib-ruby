@@ -25,8 +25,8 @@ Raylib.init_window(SCREEN_WIDTH, SCREEN_HEIGHT, "raylib [audio] example - sound 
 
 Raylib.init_audio_device
 
-fx_wav = Raylib.load_sound(File.join(__dir__, "resources/sound.wav"))  # Load WAV audio file
-fx_ogg = Raylib.load_sound(File.join(__dir__, "resources/target.ogg")) # Load OGG audio file
+fx_wav = Raylib.load_sound(File.join(__dir__, "resources/sound.wav"))  # Load WAV audio file # FIXME: Should work without File.join
+fx_ogg = Raylib.load_sound(File.join(__dir__, "resources/target.ogg")) # Load OGG audio file # FIXME: Should work without File.join
 
 Raylib.set_target_fps(60)
 # --------------------------------------------------------------------------------------

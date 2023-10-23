@@ -50,7 +50,7 @@ circles = Array.new(MAX_CIRCLES) do
   )
 end
 
-music = Raylib.load_music_stream(File.join(__dir__, "resources/mini1111.xm"))
+music = Raylib.load_music_stream(File.join(__dir__, "resources/mini1111.xm")) # FIXME: Should work without File.join
 music.looping = false
 pitch = 1.0
 
