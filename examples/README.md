@@ -76,4 +76,5 @@ Examples using raylib shapes drawing functionality.
 |----|----------------------------------------------------------|--------|:-------------------:|:------------------:|:------------------:|:----------|
 | 31 | [shapes_basic_shapes](shapes/shapes_basic_shapes.rb)     | <img src="shapes/shapes_basic_shapes.png" alt="shapes_basic_shapes" width="80"> | ⭐️☆☆☆ | 1.0 | **4.0** | [Ray](https://github.com/raysan5) |
 | 32 | [shapes_bouncing_ball](shapes/shapes_bouncing_ball.rb)   | <img src="shapes/shapes_bouncing_ball.png" alt="shapes_bouncing_ball" width="80"> | ⭐️☆☆☆ | 2.5 | 2.5 | [Ray](https://github.com/raysan5) |
+| 33 | [shapes_colors_palette](shapes/shapes_colors_palette.rb) | <img src="shapes/shapes_colors_palette.png" alt="shapes_colors_palette" width="80"> | ⭐️⭐️☆☆ | 1.0 | 2.5 | [Ray](https://github.com/raysan5) |
 | 38 | [shapes_collision_area](shapes/shapes_collision_area.rb) | <img src="shapes/shapes_collision_area.png" alt="shapes_collision_area" width="80"> | ⭐️⭐️☆☆ | 2.5 | 2.5 | [Ray](https://github.com/raysan5) |
