@@ -66,3 +66,4 @@ Examples using raylib text functionality, including sprite fonts loading/generat
 | 72 | [text_font_loading](text/text_font_loading.rb)       | <img src="text/text_font_loading.png" alt="text_font_loading" width="80"> | ⭐️☆☆☆ | 1.4 | 3.0 | [Ray](https://github.com/raysan5) |
 | 74 | [text_format_text](text/text_format_text.rb)         | <img src="text/text_format_text.png" alt="text_format_text" width="80"> | ⭐️☆☆☆ | 1.1 | 3.0 | [Ray](https://github.com/raysan5) |
 | 75 | [text_input_box](text/text_input_box.rb)             | <img src="text/text_input_box.png" alt="text_input_box" width="80"> | ⭐️⭐️☆☆ | 1.7 | 3.5 | [Ray](https://github.com/raysan5) |
+| 76 | [text_writing_anim](text/text_writing_anim.rb)       | <img src="text/text_writing_anim.png" alt="text_writing_anim" width="80"> | ⭐️⭐️☆☆ | 1.4 | 1.4 | [Ray](https://github.com/raysan5) |
