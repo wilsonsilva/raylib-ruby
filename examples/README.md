@@ -33,4 +33,14 @@ Examples using raylib core platform functionality like window creation, inputs, 
 | 29 | [core_split_screen](core/core_split_screen.rb) | <img src="core/core_split_screen.png" alt="core_split_screen" width="80"> | ⭐️⭐️⭐️⭐️ | 3.7 | **4.0** | [Jeffery Myers](https://github.com/JeffM2501) |
 | 30 | [core_window_should_close](core/core_window_should_close.rb) | <img src="core/core_window_should_close.png" alt="core_window_should_close" width="80"> | ⭐️⭐️☆☆ | **4.2** | **4.2** | [Ray](https://github.com/raysan5) |
 
+### Audio
+
+Examples using raylib audio functionality, including sound/music loading and playing.
+
+| ##  | example                                               | image  | difficulty<br>level | version<br>created | last version<br>updated | original<br>developer |
+|-----|-------------------------------------------------------|--------|:-------------------:|:------------------:|:------------------:|:----------|
+| 117 | [audio_module_playing](audio/audio_module_playing.rb) | <img src="audio/audio_module_playing.png" alt="audio_module_playing" width="80"> | ⭐️☆☆☆ | 1.5 | 3.5 | [Ray](https://github.com/raysan5) |
+| 118 | [audio_music_stream](audio/audio_music_stream.rb)     | <img src="audio/audio_music_stream.png" alt="audio_music_stream" width="80"> | ⭐️☆☆☆ | 1.3 | **4.2** | [Ray](https://github.com/raysan5) |
+| 120 | [audio_sound_loading](audio/audio_sound_loading.rb)   | <img src="audio/audio_sound_loading.png" alt="audio_sound_loading" width="80"> | ⭐️☆☆☆ | 1.1 | 3.5 | [Ray](https://github.com/raysan5) |
+
 As always contributions are welcome, feel free to send new examples! Here it is an [examples template](examples_template.rb) to start with!
