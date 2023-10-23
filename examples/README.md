@@ -72,6 +72,7 @@ Examples using raylib text functionality, including sprite fonts loading/generat
 
 Examples using raylib shapes drawing functionality.
 
-| ## | example                                              | image  | difficulty<br>level | version<br>created | last version<br>updated | original<br>developer |
-|----|------------------------------------------------------|--------|:-------------------:|:------------------:|:------------------:|:----------|
-| 31 | [shapes_basic_shapes](shapes/shapes_basic_shapes.rb) | <img src="shapes/shapes_basic_shapes.png" alt="shapes_basic_shapes" width="80"> | ⭐️☆☆☆ | 1.0 | **4.0** | [Ray](https://github.com/raysan5) |
+| ## | example                                                | image  | difficulty<br>level | version<br>created | last version<br>updated | original<br>developer |
+|----|--------------------------------------------------------|--------|:-------------------:|:------------------:|:------------------:|:----------|
+| 31 | [shapes_basic_shapes](shapes/shapes_basic_shapes.rb)   | <img src="shapes/shapes_basic_shapes.png" alt="shapes_basic_shapes" width="80"> | ⭐️☆☆☆ | 1.0 | **4.0** | [Ray](https://github.com/raysan5) |
+| 32 | [shapes_bouncing_ball](shapes/shapes_bouncing_ball.rb) | <img src="shapes/shapes_bouncing_ball.png" alt="shapes_bouncing_ball" width="80"> | ⭐️☆☆☆ | 2.5 | 2.5 | [Ray](https://github.com/raysan5) |
