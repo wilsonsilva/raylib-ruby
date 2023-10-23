@@ -33,7 +33,7 @@ Examples using raylib core platform functionality like window creation, inputs, 
 | 29 | [core_split_screen](core/core_split_screen.rb) | <img src="core/core_split_screen.png" alt="core_split_screen" width="80"> | ⭐️⭐️⭐️⭐️ | 3.7 | **4.0** | [Jeffery Myers](https://github.com/JeffM2501) |
 | 30 | [core_window_should_close](core/core_window_should_close.rb) | <img src="core/core_window_should_close.png" alt="core_window_should_close" width="80"> | ⭐️⭐️☆☆ | **4.2** | **4.2** | [Ray](https://github.com/raysan5) |
 
-### Audio
+## Audio
 
 Examples using raylib audio functionality, including sound/music loading and playing.
 
