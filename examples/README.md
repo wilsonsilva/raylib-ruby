@@ -67,3 +67,11 @@ Examples using raylib text functionality, including sprite fonts loading/generat
 | 74 | [text_format_text](text/text_format_text.rb)         | <img src="text/text_format_text.png" alt="text_format_text" width="80"> | ⭐️☆☆☆ | 1.1 | 3.0 | [Ray](https://github.com/raysan5) |
 | 75 | [text_input_box](text/text_input_box.rb)             | <img src="text/text_input_box.png" alt="text_input_box" width="80"> | ⭐️⭐️☆☆ | 1.7 | 3.5 | [Ray](https://github.com/raysan5) |
 | 76 | [text_writing_anim](text/text_writing_anim.rb)       | <img src="text/text_writing_anim.png" alt="text_writing_anim" width="80"> | ⭐️⭐️☆☆ | 1.4 | 1.4 | [Ray](https://github.com/raysan5) |
+
+## Shapes
+
+Examples using raylib shapes drawing functionality.
+
+| ## | example                                              | image  | difficulty<br>level | version<br>created | last version<br>updated | original<br>developer |
+|----|------------------------------------------------------|--------|:-------------------:|:------------------:|:------------------:|:----------|
+| 31 | [shapes_basic_shapes](shapes/shapes_basic_shapes.rb) | <img src="shapes/shapes_basic_shapes.png" alt="shapes_basic_shapes" width="80"> | ⭐️☆☆☆ | 1.0 | **4.0** | [Ray](https://github.com/raysan5) |
