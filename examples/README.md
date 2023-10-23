@@ -1,5 +1,14 @@
 # Examples
 
+## DSL
+
+Examples using raylib core platform functionality like window creation using the different DSLs available.
+
+| ## | example                         | image  | difficulty<br>level | version<br>created | last version<br>updated | original<br>developer                    |
+|----|---------------------------------|--------|:-------------------:|:------------------:|:-----------------------:|:-----------------------------------------|
+| A  | [global](dsl/global.rb)         | <img src="core/core_basic_window.png" alt="core_basic_window" width="80"> | ⭐️☆☆☆ |        4.5         |           4.5           | [Wilson](https://github.com/wilsonsilva) |
+| B  | [namespaced](dsl/namespaced.rb) | <img src="core/core_basic_window.png" alt="core_basic_window" width="80"> | ⭐️☆☆☆ |        4.5         |           4.5           | [Wilson](https://github.com/wilsonsilva)     |
+
 ## Core
 
 Examples using raylib core platform functionality like window creation, inputs, drawing modes and system functionality.
@@ -53,4 +62,3 @@ Examples using raylib text functionality, including sprite fonts loading/generat
 |----|------------------------------------------------------|--------|:-------------------:|:------------------:|:------------------:|:----------|
 | 71 | [text_font_filters](text/text_font_filters.rb)       | <img src="text/text_font_filters.png" alt="text_font_filters" width="80"> | ⭐️⭐️☆☆ | 1.3 | **4.2** | [Ray](https://github.com/raysan5) |
 | 72 | [text_font_loading](text/text_font_loading.rb) | <img src="text/text_font_loading.png" alt="text_font_loading" width="80"> | ⭐️☆☆☆ | 1.4 | 3.0 | [Ray](https://github.com/raysan5) |
-
