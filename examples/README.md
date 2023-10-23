@@ -44,3 +44,13 @@ Examples using raylib audio functionality, including sound/music loading and pla
 | 120 | [audio_sound_loading](audio/audio_sound_loading.rb)   | <img src="audio/audio_sound_loading.png" alt="audio_sound_loading" width="80"> | ⭐️☆☆☆ | 1.1 | 3.5 | [Ray](https://github.com/raysan5) |
 
 As always contributions are welcome, feel free to send new examples! Here it is an [examples template](examples_template.rb) to start with!
+
+## Text
+
+Examples using raylib text functionality, including sprite fonts loading/generation and text drawing.
+
+| ## | example                                              | image  | difficulty<br>level | version<br>created | last version<br>updated | original<br>developer |
+|----|------------------------------------------------------|--------|:-------------------:|:------------------:|:------------------:|:----------|
+| 71 | [text_font_filters](text/text_font_filters.rb)       | <img src="text/text_font_filters.png" alt="text_font_filters" width="80"> | ⭐️⭐️☆☆ | 1.3 | **4.2** | [Ray](https://github.com/raysan5) |
+| 72 | [text_font_loading](text/text_font_loading.rb) | <img src="text/text_font_loading.png" alt="text_font_loading" width="80"> | ⭐️☆☆☆ | 1.4 | 3.0 | [Ray](https://github.com/raysan5) |
+
