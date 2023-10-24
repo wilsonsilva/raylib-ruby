@@ -94,4 +94,5 @@ Examples using raylib textures functionality, including image/textures loading/g
 
 | ## | example                                                                    | image  | difficulty<br>level | version<br>created | last version<br>updated | original<br>developer |
 |----|----------------------------------------------------------------------------|--------|:-------------------:|:------------------:|:------------------:|:----------|
+| 47 | [textures_logo_raylib](textures/textures_logo_raylib.rb)                   | <img src="textures/textures_logo_raylib.png" alt="textures_logo_raylib" width="80"> | ⭐️☆☆☆ | 1.0 | 1.0 | [Ray](https://github.com/raysan5) |
 | 58 | [textures_background_scrolling](textures/textures_background_scrolling.rb) | <img src="textures/textures_background_scrolling.png" alt="textures_background_scrolling" width="80"> | ⭐️☆☆☆ | 2.0 | 2.5 | [Ray](https://github.com/raysan5) |
