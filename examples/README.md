@@ -84,6 +84,7 @@ Examples using raylib textures functionality, including image/textures loading/g
 | 58 | [textures_background_scrolling](textures/textures_background_scrolling.rb) | <img src="textures/textures_background_scrolling.png" alt="textures_background_scrolling" width="80"> | ⭐️☆☆☆ | 2.0 | 2.5 | [Ray](https://github.com/raysan5) |
 | 59 | [textures_sprite_anim](textures/textures_sprite_anim.rb)                   | <img src="textures/textures_sprite_anim.png" alt="textures_sprite_anim" width="80"> | ⭐️⭐️☆☆ | 1.3 | 1.3 | [Ray](https://github.com/raysan5) |
 | 61 | [textures_sprite_explosion](textures/textures_sprite_explosion.rb)         | <img src="textures/textures_sprite_explosion.png" alt="textures_sprite_explosion" width="80"> | ⭐️⭐️☆☆ | 2.5 | 3.5 | [Ray](https://github.com/raysan5) |
+| 62 | [textures_abunnymark](textures/textures_bunnymark.rb)                      | <img src="textures/textures_bunnymark.png" alt="textures_bunnymark" width="80"> | ⭐️⭐️⭐️☆ | 1.6 | 2.5 | [Ray](https://github.com/raysan5) |
 
 ## Text
 
