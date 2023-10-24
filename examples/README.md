@@ -42,31 +42,7 @@ Examples using raylib core platform functionality like window creation, inputs, 
 | 29 | [core_split_screen](core/core_split_screen.rb) | <img src="core/core_split_screen.png" alt="core_split_screen" width="80"> | ⭐️⭐️⭐️⭐️ | 3.7 | **4.0** | [Jeffery Myers](https://github.com/JeffM2501) |
 | 30 | [core_window_should_close](core/core_window_should_close.rb) | <img src="core/core_window_should_close.png" alt="core_window_should_close" width="80"> | ⭐️⭐️☆☆ | **4.2** | **4.2** | [Ray](https://github.com/raysan5) |
 
-## Audio
-
-Examples using raylib audio functionality, including sound/music loading and playing.
-
-| ##  | example                                               | image  | difficulty<br>level | version<br>created | last version<br>updated | original<br>developer |
-|-----|-------------------------------------------------------|--------|:-------------------:|:------------------:|:------------------:|:----------|
-| 117 | [audio_module_playing](audio/audio_module_playing.rb) | <img src="audio/audio_module_playing.png" alt="audio_module_playing" width="80"> | ⭐️☆☆☆ | 1.5 | 3.5 | [Ray](https://github.com/raysan5) |
-| 118 | [audio_music_stream](audio/audio_music_stream.rb)     | <img src="audio/audio_music_stream.png" alt="audio_music_stream" width="80"> | ⭐️☆☆☆ | 1.3 | **4.2** | [Ray](https://github.com/raysan5) |
-| 120 | [audio_sound_loading](audio/audio_sound_loading.rb)   | <img src="audio/audio_sound_loading.png" alt="audio_sound_loading" width="80"> | ⭐️☆☆☆ | 1.1 | 3.5 | [Ray](https://github.com/raysan5) |
-
 As always contributions are welcome, feel free to send new examples! Here it is an [examples template](examples_template.rb) to start with!
-
-## Text
-
-Examples using raylib text functionality, including sprite fonts loading/generation and text drawing.
-
-| ## | example                                              | image  | difficulty<br>level | version<br>created | last version<br>updated | original<br>developer |
-|----|------------------------------------------------------|--------|:-------------------:|:------------------:|:------------------:|:----------|
-| 69 | [text_raylib_fonts](text/text_raylib_fonts.rb)       | <img src="text/text_raylib_fonts.png" alt="text_raylib_fonts" width="80"> | ⭐️☆☆☆ | 1.7 | 3.7 | [Ray](https://github.com/raysan5) |
-| 70 | [text_font_spritefont](text/text_font_spritefont.rb) | <img src="text/text_font_spritefont.png" alt="text_font_spritefont" width="80"> | ⭐️☆☆☆ | 1.0 | 1.0 | [Ray](https://github.com/raysan5) |
-| 71 | [text_font_filters](text/text_font_filters.rb)       | <img src="text/text_font_filters.png" alt="text_font_filters" width="80"> | ⭐️⭐️☆☆ | 1.3 | **4.2** | [Ray](https://github.com/raysan5) |
-| 72 | [text_font_loading](text/text_font_loading.rb)       | <img src="text/text_font_loading.png" alt="text_font_loading" width="80"> | ⭐️☆☆☆ | 1.4 | 3.0 | [Ray](https://github.com/raysan5) |
-| 74 | [text_format_text](text/text_format_text.rb)         | <img src="text/text_format_text.png" alt="text_format_text" width="80"> | ⭐️☆☆☆ | 1.1 | 3.0 | [Ray](https://github.com/raysan5) |
-| 75 | [text_input_box](text/text_input_box.rb)             | <img src="text/text_input_box.png" alt="text_input_box" width="80"> | ⭐️⭐️☆☆ | 1.7 | 3.5 | [Ray](https://github.com/raysan5) |
-| 76 | [text_writing_anim](text/text_writing_anim.rb)       | <img src="text/text_writing_anim.png" alt="text_writing_anim" width="80"> | ⭐️⭐️☆☆ | 1.4 | 1.4 | [Ray](https://github.com/raysan5) |
 
 ## Shapes
 
@@ -108,3 +84,26 @@ Examples using raylib textures functionality, including image/textures loading/g
 | 58 | [textures_background_scrolling](textures/textures_background_scrolling.rb) | <img src="textures/textures_background_scrolling.png" alt="textures_background_scrolling" width="80"> | ⭐️☆☆☆ | 2.0 | 2.5 | [Ray](https://github.com/raysan5) |
 | 59 | [textures_sprite_anim](textures/textures_sprite_anim.rb)                   | <img src="textures/textures_sprite_anim.png" alt="textures_sprite_anim" width="80"> | ⭐️⭐️☆☆ | 1.3 | 1.3 | [Ray](https://github.com/raysan5) |
 
+## Text
+
+Examples using raylib text functionality, including sprite fonts loading/generation and text drawing.
+
+| ## | example                                              | image  | difficulty<br>level | version<br>created | last version<br>updated | original<br>developer |
+|----|------------------------------------------------------|--------|:-------------------:|:------------------:|:------------------:|:----------|
+| 69 | [text_raylib_fonts](text/text_raylib_fonts.rb)       | <img src="text/text_raylib_fonts.png" alt="text_raylib_fonts" width="80"> | ⭐️☆☆☆ | 1.7 | 3.7 | [Ray](https://github.com/raysan5) |
+| 70 | [text_font_spritefont](text/text_font_spritefont.rb) | <img src="text/text_font_spritefont.png" alt="text_font_spritefont" width="80"> | ⭐️☆☆☆ | 1.0 | 1.0 | [Ray](https://github.com/raysan5) |
+| 71 | [text_font_filters](text/text_font_filters.rb)       | <img src="text/text_font_filters.png" alt="text_font_filters" width="80"> | ⭐️⭐️☆☆ | 1.3 | **4.2** | [Ray](https://github.com/raysan5) |
+| 72 | [text_font_loading](text/text_font_loading.rb)       | <img src="text/text_font_loading.png" alt="text_font_loading" width="80"> | ⭐️☆☆☆ | 1.4 | 3.0 | [Ray](https://github.com/raysan5) |
+| 74 | [text_format_text](text/text_format_text.rb)         | <img src="text/text_format_text.png" alt="text_format_text" width="80"> | ⭐️☆☆☆ | 1.1 | 3.0 | [Ray](https://github.com/raysan5) |
+| 75 | [text_input_box](text/text_input_box.rb)             | <img src="text/text_input_box.png" alt="text_input_box" width="80"> | ⭐️⭐️☆☆ | 1.7 | 3.5 | [Ray](https://github.com/raysan5) |
+| 76 | [text_writing_anim](text/text_writing_anim.rb)       | <img src="text/text_writing_anim.png" alt="text_writing_anim" width="80"> | ⭐️⭐️☆☆ | 1.4 | 1.4 | [Ray](https://github.com/raysan5) |
+
+## Audio
+
+Examples using raylib audio functionality, including sound/music loading and playing.
+
+| ##  | example                                               | image  | difficulty<br>level | version<br>created | last version<br>updated | original<br>developer |
+|-----|-------------------------------------------------------|--------|:-------------------:|:------------------:|:------------------:|:----------|
+| 117 | [audio_module_playing](audio/audio_module_playing.rb) | <img src="audio/audio_module_playing.png" alt="audio_module_playing" width="80"> | ⭐️☆☆☆ | 1.5 | 3.5 | [Ray](https://github.com/raysan5) |
+| 118 | [audio_music_stream](audio/audio_music_stream.rb)     | <img src="audio/audio_music_stream.png" alt="audio_music_stream" width="80"> | ⭐️☆☆☆ | 1.3 | **4.2** | [Ray](https://github.com/raysan5) |
+| 120 | [audio_sound_loading](audio/audio_sound_loading.rb)   | <img src="audio/audio_sound_loading.png" alt="audio_sound_loading" width="80"> | ⭐️☆☆☆ | 1.1 | 3.5 | [Ray](https://github.com/raysan5) |
