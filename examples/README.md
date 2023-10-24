@@ -87,3 +87,11 @@ Examples using raylib shapes drawing functionality.
 | 41 | [shapes_easings_box_anim](shapes/shapes_easings_box_anim.rb)               | <img src="shapes/shapes_easings_box_anim.png" alt="shapes_easings_box_anim" width="80"> | ⭐️⭐️☆☆ | 2.5 | 2.5 | [Ray](https://github.com/raysan5) |
 | 42 | [shapes_easings_rectangle_array](shapes/shapes_easings_rectangle_array.rb) | <img src="shapes/shapes_easings_rectangle_array.png" alt="shapes_easings_rectangle_array" width="80"> | ⭐️⭐️⭐️☆ | 2.5 | 2.5 | [Ray](https://github.com/raysan5) |
 | 46 | [shapes_top_down_lights](shapes/shapes_top_down_lights.rb)                 | <img src="shapes/shapes_top_down_lights.png" alt="shapes_top_down_lights" width="80"> | ⭐️⭐️⭐️⭐️ | **4.2** | **4.2** | [Jeffery Myers](https://github.com/JeffM2501) |
+
+## Textures
+
+Examples using raylib textures functionality, including image/textures loading/generation and drawing.
+
+| ## | example                                                                    | image  | difficulty<br>level | version<br>created | last version<br>updated | original<br>developer |
+|----|----------------------------------------------------------------------------|--------|:-------------------:|:------------------:|:------------------:|:----------|
+| 58 | [textures_background_scrolling](textures/textures_background_scrolling.rb) | <img src="textures/textures_background_scrolling.png" alt="textures_background_scrolling" width="80"> | ⭐️☆☆☆ | 2.0 | 2.5 | [Ray](https://github.com/raysan5) |
