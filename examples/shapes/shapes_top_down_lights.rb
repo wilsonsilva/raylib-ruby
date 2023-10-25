@@ -236,10 +236,10 @@ def setup_boxes(boxes)
 
   (5...MAX_BOXES).each do |i|
     boxes[i] = Raylib::Rectangle.create(
-      Raylib.get_random_value(0, Raylib.get_screen_width),
-      Raylib.get_random_value(0, Raylib.get_screen_height),
-      Raylib.get_random_value(10, 100),
-      Raylib.get_random_value(10, 100)
+      rand(0..Raylib.get_screen_width),
+      rand(0..Raylib.get_screen_height),
+      rand(10..100),
+      rand(10..100)
     )
   end
 

@@ -33,18 +33,18 @@ camera = Raylib::Camera3D.create(
 
 camera_mode = Raylib::CAMERA_FIRST_PERSON
 
-heights = Array.new(MAX_COLUMNS) { Raylib.get_random_value(1, 12) }
+heights = Array.new(MAX_COLUMNS) { rand(1..12) }
 positions = Array.new(MAX_COLUMNS) do |i|
   Raylib::Vector3.create(
-    Raylib.get_random_value(-15, 15),
+    rand(-15..15),
     heights[i] / 2.0,
-    Raylib.get_random_value(-15, 15)
+    rand(-15..15)
   )
 end
 colors = Array.new(MAX_COLUMNS) do
   Raylib::Color.create(
-    Raylib.get_random_value(20, 255),
-    Raylib.get_random_value(10, 55),
+    rand(20..255),
+    rand(10..55),
     30,
     255
   )

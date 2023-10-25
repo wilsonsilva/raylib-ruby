@@ -38,7 +38,7 @@ Raylib.set_texture_filter(target.texture, Raylib::TEXTURE_FILTER_BILINEAR)  # Te
 
 colors = []
 10.times do
-  colors << Raylib::Color.create(Raylib.get_random_value(100, 250), Raylib.get_random_value(50, 150), Raylib.get_random_value(10, 100), 255)
+  colors << Raylib::Color.create(rand(100..250), rand(50..150), rand(10..100), 255)
 end
 
 Raylib.set_target_fps(60)
@@ -54,7 +54,7 @@ until Raylib.window_should_close  # Detect window close button or ESC key
   if Raylib.is_key_pressed(Raylib::KEY_SPACE)
     # Recalculate random colors for the bars
     for i in 0...10
-      colors[i] = Raylib::Color.create(Raylib.get_random_value(100, 250), Raylib.get_random_value(50, 150), Raylib.get_random_value(10, 100), 255)
+      colors[i] = Raylib::Color.create(rand(100..250), rand(50..150), rand(10..100), 255)
     end
   end
 

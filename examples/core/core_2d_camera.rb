@@ -32,17 +32,17 @@ build_colors = Array.new(MAX_BUILDINGS) { Raylib::Color.create(0, 0, 0, 0) }
 spacing = 0
 
 MAX_BUILDINGS.times do |i|
-  buildings[i].width = Raylib.get_random_value(50, 200).to_f
-  buildings[i].height = Raylib.get_random_value(100, 800).to_f
+  buildings[i].width = rand(50..200).to_f
+  buildings[i].height = rand(100..800).to_f
   buildings[i].y = SCREEN_HEIGHT - 130.0 - buildings[i].height
   buildings[i].x = -6000.0 + spacing
 
   spacing += buildings[i].width.to_i
 
   build_colors[i] = Raylib::Color.create(
-    Raylib.get_random_value(200, 240),
-    Raylib.get_random_value(200, 240),
-    Raylib.get_random_value(200, 250),
+    rand(200..240),
+    rand(200..240),
+    rand(200..250),
     255
   )
 end

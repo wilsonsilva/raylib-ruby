@@ -40,12 +40,12 @@ colors = [
 circles = Array.new(MAX_CIRCLES) do
   CircleWave.new(
     Raylib::Vector2.create(
-      Raylib.get_random_value(10, SCREEN_WIDTH - 40),
-      Raylib.get_random_value(10, SCREEN_HEIGHT - 40)
+      rand(10..(SCREEN_WIDTH - 40)),
+      rand(10..(SCREEN_HEIGHT - 40))
     ),
-    Raylib.get_random_value(10, 40).to_f,
+    rand(10..40).to_f,
     0.0,
-    Raylib.get_random_value(1, 100) / 2000.0,
+    rand(1..100) / 2000.0,
     colors.sample
   )
 end
@@ -98,13 +98,13 @@ until Raylib.window_should_close # Detect window close button or ESC key
       circle.speed *= -1
     elsif circle.alpha <= 0.0
       circle.alpha = 0.0
-      circle.radius = Raylib.get_random_value(10, 40).to_f
+      circle.radius = rand(10..40).to_f
       circle.position = Raylib::Vector2.create(
-        Raylib.get_random_value(circle.radius, SCREEN_WIDTH - circle.radius),
-        Raylib.get_random_value(circle.radius, SCREEN_HEIGHT - circle.radius)
+        rand(circle.radius..(SCREEN_WIDTH - circle.radius)),
+        rand(circle.radius..(SCREEN_HEIGHT - circle.radius))
       )
       circle.color = colors.sample
-      circle.speed = Raylib.get_random_value(1, 100) / 2000.0
+      circle.speed = rand(1..100) / 2000.0
     end
   end
   # ----------------------------------------------------------------------------------

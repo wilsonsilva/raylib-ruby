@@ -55,14 +55,14 @@ mouse_tail = Array.new(MAX_PARTICLES) { Particle.new }
 mouse_tail.each do |particle|
   particle.position = Raylib::Vector2.create(0, 0)
   particle.color = Raylib::Color.create(
-    Raylib.get_random_value(0, 255),
-    Raylib.get_random_value(0, 255),
-    Raylib.get_random_value(0, 255),
+    rand(0..255),
+    rand(0..255),
+    rand(0..255),
     255
   )
   particle.alpha = 1.0
-  particle.size = Raylib.get_random_value(1, 30) /  20.0
-  particle.rotation = Raylib.get_random_value(0, 360)
+  particle.size = rand(1..30) / 20.0
+  particle.rotation = rand(0..360)
   particle.active = false
 end
 

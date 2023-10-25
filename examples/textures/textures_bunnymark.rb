@@ -68,14 +68,14 @@ until Raylib.window_should_close # Detect window close button or ESC key
       position = Raylib.get_mouse_position
 
       speed = Raylib::Vector2.create(
-        Raylib.get_random_value(-250, 250) / 60.0,
-        Raylib.get_random_value(-250, 250) / 60.0
+        rand(-250..250) / 60.0,
+        rand(-250..250) / 60.0
       )
 
       color = Raylib::Color.create(
-        Raylib.get_random_value(50, 240),
-        Raylib.get_random_value(80, 240),
-        Raylib.get_random_value(100, 240),
+        rand(50..240),
+        rand(80..240),
+        rand(100..240),
         255
       )
       bunnies << Bunny.create(position, speed, color)
