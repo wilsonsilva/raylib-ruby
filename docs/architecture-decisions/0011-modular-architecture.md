@@ -39,11 +39,11 @@ require 'raylib/rlgl'
 
 ## Consequences
 
-## Negative
+### Negative
 
 - Requires typing each module explicitly
 
-## Positive
+### Positive
 
 - Follows the same standard as native raylib
 - It is memory-efficient

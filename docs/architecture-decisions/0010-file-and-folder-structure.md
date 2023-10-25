@@ -85,10 +85,10 @@ lib/raylib
 
 ## Consequences
 
-## Negative
+### Negative
 
 - There's no file parity between the native C source code and the Ruby code
 
-## Positive
+### Positive
 
 - It is easier to locate the source of a method or struct
