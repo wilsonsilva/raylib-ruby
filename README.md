@@ -29,7 +29,7 @@ Ruby bindings for [raylib](https://www.raylib.com/), a simple and easy-to-use li
 1. Follow the instructions on the [native raylib wiki](https://github.com/raysan5/raylib#build-and-installation) to install the __native raylib library__ on your operating
 system.
 
-2. Install the gem by executing: `bundle add raylib` or `gem install raylib`
+2. Install the gem by executing: `bundle add raylib` or `gem install raylib --pre`
 
 ## Usage
 
