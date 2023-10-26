@@ -51,7 +51,7 @@ until Raylib.window_should_close
   Raylib.clear_background(Raylib::RAYWHITE)
 
   if Raylib.is_gamepad_available(0)
-    Raylib.draw_text(Raylib.text_format("GP1: %s", :string, Raylib.get_gamepad_name(0)), 10, 10, 10, Raylib::BLACK)
+    Raylib.draw_text("GP1: #{Raylib.get_gamepad_name(0)}", 10, 10, 10, Raylib::BLACK)
 
     # Implement drawing logic
     gamepad_name = Raylib.get_gamepad_name(0)
@@ -170,18 +170,18 @@ until Raylib.window_should_close
     end
 
     axis_count = Raylib.get_gamepad_axis_count(0)
-    Raylib.draw_text(Raylib.text_format("DETECTED AXIS [%i]:", :int, axis_count), 10, 50, 10, Raylib::MAROON)
+    Raylib.draw_text("DETECTED AXIS [#{axis_count}]:", 10, 50, 10, Raylib::MAROON)
 
     axis_count.times do |i|
       Raylib.draw_text(
-        Raylib.text_format("AXIS %i: %.02f", :int, i, :float, Raylib.get_gamepad_axis_movement(0, i)), 20, 70 + 20 * i, 10, Raylib::DARKGRAY
+        "AXIS %i: %.02f" % [i, Raylib.get_gamepad_axis_movement(0, i)], 20, 70 + 20 * i, 10, Raylib::DARKGRAY
       )
     end
 
     detected_button = Raylib.get_gamepad_button_pressed
 
     if detected_button != Raylib::GAMEPAD_BUTTON_UNKNOWN
-      Raylib.draw_text(Raylib.text_format("DETECTED BUTTON: %i", :int, detected_button), 10, 430, 10, Raylib::RED)
+      Raylib.draw_text("DETECTED BUTTON: #{detected_button}", 10, 430, 10, Raylib::RED)
     else
       Raylib.draw_text("DETECTED BUTTON: NONE", 10, 430, 10, Raylib::GRAY)
     end

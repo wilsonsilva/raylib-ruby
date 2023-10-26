@@ -76,7 +76,7 @@ until Raylib.window_should_close  # Detect window close button or ESC key
   )
 
   Raylib.draw_text(
-    Raylib.text_format("Cube position in screen space coordinates: [%i, %i]", :int, cube_screen_position.x, :int, cube_screen_position.y),
+    "Cube position in screen space coordinates: [#{cube_screen_position.x.to_i}, #{cube_screen_position.y.to_i}]",
     10,
     10,
     20,

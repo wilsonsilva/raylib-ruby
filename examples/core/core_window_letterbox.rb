@@ -76,8 +76,8 @@ until Raylib.window_should_close  # Detect window close button or ESC key
   end
 
   Raylib.draw_text("If executed inside a window,\nyou can resize the window,\nand see the screen scaling!", 10, 25, 20, Raylib::WHITE)
-  Raylib.draw_text(Raylib.text_format("Default Mouse: [%i , %i]", :int, mouse.x.to_i, :int, mouse.y.to_i), 350, 25, 20, Raylib::GREEN)
-  Raylib.draw_text(Raylib.text_format("Virtual Mouse: [%i , %i]", :int, virtual_mouse.x.to_i, :int, virtual_mouse.y.to_i), 350, 55, 20, Raylib::YELLOW)
+  Raylib.draw_text("Default Mouse: [#{mouse.x.to_i} , #{mouse.y.to_i}]", 350, 25, 20, Raylib::GREEN)
+  Raylib.draw_text("Virtual Mouse: [#{virtual_mouse.x.to_i} , #{virtual_mouse.y.to_i}]", 350, 55, 20, Raylib::YELLOW)
   Raylib.end_texture_mode
 
   Raylib.begin_drawing

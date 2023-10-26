@@ -163,7 +163,7 @@ until Raylib.window_should_close
   Raylib.draw_fps(10, 10)
 
   Raylib.draw_text(
-    Raylib.text_format("Screen Size: [%i, %i]", :int, Raylib.get_screen_width, :int, Raylib.get_screen_height),
+    "Screen Size: [#{Raylib.get_screen_width}, #{Raylib.get_screen_height}]",
     10,
     40,
     10,

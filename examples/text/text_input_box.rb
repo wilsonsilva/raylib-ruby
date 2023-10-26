@@ -96,7 +96,7 @@ until Raylib.window_should_close
 
   Raylib.draw_text(name, text_box.x.to_i + 5, text_box.y.to_i + 8, 40, Raylib::MAROON)
 
-  Raylib.draw_text(Raylib.text_format('INPUT CHARS: %i/%i', :int, letter_count, :int, MAX_INPUT_CHARS), 315, 250, 20, Raylib::DARKGRAY)
+  Raylib.draw_text("INPUT CHARS: #{letter_count}/#{MAX_INPUT_CHARS}", 315, 250, 20, Raylib::DARKGRAY)
 
   if mouse_on_text
     if letter_count < MAX_INPUT_CHARS

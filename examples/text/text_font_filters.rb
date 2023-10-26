@@ -98,8 +98,8 @@ until Raylib.window_should_close # Detect window close button or ESC key
   Raylib.draw_text_ex(font, msg, font_position, font_size, 0, Raylib::BLACK)
 
   Raylib.draw_rectangle(0, SCREEN_HEIGHT - 80, SCREEN_WIDTH, 80, Raylib::LIGHTGRAY)
-  Raylib.draw_text(Raylib.text_format('Font size: %02.02f', :float, font_size), 20, SCREEN_HEIGHT - 50, 10, Raylib::DARKGRAY)
-  Raylib.draw_text(Raylib.text_format('Text size: [%02.02f, %02.02f]', :float, text_size.x, :float, text_size.y), 20, SCREEN_HEIGHT - 30, 10, Raylib::DARKGRAY)
+  Raylib.draw_text('Font size: %02.02f' % font_size, 20, SCREEN_HEIGHT - 50, 10, Raylib::DARKGRAY)
+  Raylib.draw_text('Text size: [%02.02f, %02.02f]' % [text_size.x, text_size.y], 20, SCREEN_HEIGHT - 30, 10, Raylib::DARKGRAY)
   Raylib.draw_text('CURRENT TEXTURE FILTER:', 250, 400, 20, Raylib::GRAY)
 
   case current_font_filter

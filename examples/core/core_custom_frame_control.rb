@@ -82,13 +82,13 @@ until Raylib.window_should_close # Detect window close button or ESC key
 
   Raylib.draw_circle(position.to_i, Raylib.get_screen_height / 2 - 25, 50, Raylib::RED)
 
-  Raylib.draw_text(Raylib.text_format("%03.0f ms", :double, time_counter * 1000.0), position.to_i - 40, Raylib.get_screen_height / 2 - 100, 20, Raylib::MAROON)
-  Raylib.draw_text(Raylib.text_format("PosX: %03.0f", :double, position), position.to_i - 50, Raylib.get_screen_height / 2 + 40, 20, Raylib::BLACK)
+  Raylib.draw_text("%03.0f ms" % (time_counter * 1000.0), position.to_i - 40, Raylib.get_screen_height / 2 - 100, 20, Raylib::MAROON)
+  Raylib.draw_text("PosX: %03.0f" % position, position.to_i - 50, Raylib.get_screen_height / 2 + 40, 20, Raylib::BLACK)
 
   Raylib.draw_text("Circle is moving at a constant 200 pixels/sec,\nindependently of the frame rate.", 10, 10, 20, Raylib::DARKGRAY)
   Raylib.draw_text("PRESS SPACE to PAUSE MOVEMENT", 10, Raylib.get_screen_height - 60, 20, Raylib::GRAY)
   Raylib.draw_text("PRESS UP | DOWN to CHANGE TARGET FPS", 10, Raylib.get_screen_height - 30, 20, Raylib::GRAY)
-  Raylib.draw_text(Raylib.text_format("TARGET FPS: %i", :int, target_fps), Raylib.get_screen_width - 220, 10, 20, Raylib::LIME)
+  Raylib.draw_text("TARGET FPS: #{target_fps}", Raylib.get_screen_width - 220, 10, 20, Raylib::LIME)
   # TODO: This is causing Infinity (FloatDomainError) error
   # Raylib.draw_text(Raylib.text_format("CURRENT FPS: %i", :int, (1.0 / delta_time).to_i), Raylib.get_screen_width - 220, 40, 20, Raylib::GREEN)
 

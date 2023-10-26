@@ -51,9 +51,7 @@ until Raylib.window_should_close # Detect window close button or ESC key
   touch_positions.each do |touch_position|
     if touch_position.x > 0 && touch_position.y > 0
       Raylib.draw_circle_v(touch_position, 34, Raylib::ORANGE)
-      Raylib.draw_text(
-        Raylib.text_format("%d", :int, i), touch_position.x - 10, touch_position.y - 70, 40, Raylib::BLACK
-      )
+      Raylib.draw_text(i.to_s, touch_position.x - 10, touch_position.y - 70, 40, Raylib::BLACK)
     end
   end
 

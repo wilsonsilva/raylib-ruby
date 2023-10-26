@@ -101,7 +101,7 @@ until Raylib.window_should_close
 
     # Draw collision area
     Raylib.draw_text(
-      Raylib.text_format('Collision Area: %i', :int, box_collision.width * box_collision.height),
+      Raylib.text_format("Collision Area: #{(box_collision.width * box_collision.height).to}"),
       (Raylib.get_screen_width / 2) - 100,
       SCREEN_UPPER_LIMIT + 10, 20, Raylib::BLACK
     )

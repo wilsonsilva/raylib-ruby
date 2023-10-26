@@ -116,8 +116,8 @@ until Raylib.window_should_close # Detect window close button or ESC key
   end
 
   Raylib.draw_rectangle(0, 0, SCREEN_WIDTH, 40, Raylib::BLACK)
-  Raylib.draw_text(Raylib.text_format('bunnies: %i', :int, bunnies_count), 120, 10, 20, Raylib::GREEN)
-  Raylib.draw_text(Raylib.text_format('batched draw calls: %i', :int, 1 + (bunnies_count / MAX_BATCH_ELEMENTS)), 320, 10, 20, Raylib::MAROON)
+  Raylib.draw_text("bunnies: #{bunnies_count}", 120, 10, 20, Raylib::GREEN)
+  Raylib.draw_text("batched draw calls: #{1 + (bunnies_count / MAX_BATCH_ELEMENTS)}", 320, 10, 20, Raylib::MAROON)
 
   Raylib.draw_fps(10, 10)
   Raylib.end_drawing

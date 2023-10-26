@@ -71,7 +71,7 @@ until Raylib.window_should_close # Detect window close button or ESC key
   )
 
   Raylib.draw_text('FRAME SPEED: ', 165, 210, 10, Raylib::DARKGRAY)
-  Raylib.draw_text(Raylib.text_format('%02i FPS', :int, frames_speed), 575, 210, 10, Raylib::DARKGRAY)
+  Raylib.draw_text('%02i FPS' % frames_speed, 575, 210, 10, Raylib::DARKGRAY)
   Raylib.draw_text('PRESS RIGHT/LEFT KEYS to CHANGE SPEED!', 290, 240, 10, Raylib::DARKGRAY)
 
   MAX_FRAME_SPEED.times do |i|

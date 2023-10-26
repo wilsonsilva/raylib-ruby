@@ -90,7 +90,7 @@ until Raylib.window_should_close # Detect window close button or ESC key
   Raylib.clear_background(Raylib::RAYWHITE)
 
   Raylib.draw_text("MUSIC SHOULD BE PLAYING!", 255, 150, 20, Raylib::LIGHTGRAY)
-  Raylib.draw_text(Raylib.text_format("EXPONENT = %.2f", :float, $exponent), 215, 180, 20, Raylib::LIGHTGRAY)
+  Raylib.draw_text("EXPONENT = %.2f" % $exponent, 215, 180, 20, Raylib::LIGHTGRAY)
 
   Raylib.draw_rectangle(199, 199, 402, 34, Raylib::LIGHTGRAY)
   400.times do |i|

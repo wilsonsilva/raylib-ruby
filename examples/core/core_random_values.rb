@@ -48,7 +48,7 @@ until Raylib.window_should_close # Detect window close button or ESC key
 
   Raylib.draw_text("Every 2 seconds a new random value is generated:", 130, 100, 20, Raylib::MAROON)
 
-  Raylib.draw_text(Raylib.text_format("%i", :int, rand_value), 360, 180, 80, Raylib::LIGHTGRAY)
+  Raylib.draw_text(rand_value.to_s, 360, 180, 80, Raylib::LIGHTGRAY)
 
   Raylib.end_drawing
 end
