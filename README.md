@@ -20,7 +20,7 @@ Ruby bindings for [raylib](https://www.raylib.com/), a simple and easy-to-use li
 - **Powerful math module** for Vector, Matrix and Quaternion operations: [raymath](https://github.com/wilsonsilva/raylib-ruby/blob/main/lib/raylib/raymath/)
 - Audio loading and playing with streaming support (WAV, OGG, MP3, FLAC, XM, MOD)
 - **VR stereo rendering** support with configurable HMD device parameters
-- Huge examples collection with [+20 code examples](https://github.com/wilsonsilva/raylib-ruby/tree/main/examples)!
+- Huge examples collection with [+65 code examples](https://github.com/wilsonsilva/raylib-ruby/tree/main/examples)!
 - **Free and open source**.
 - Linter for best practices: [rubocop-raylib](https://github.com/wilsonsilva/rubocop-raylib)
 
